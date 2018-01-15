@@ -1,0 +1,13 @@
+As we've seen during lecture, public key certificates commonly used (for instance, by web servers/browsers) adhere to the X.509 standard (see the RFCs for all details).
+
+Your task is to write a Python program that takes, as command-line arguments, a sequences of filenames containing PEM encoded certificates, and:
+1) print a summary of each certificate (in particular, its: Issuer, Subject, Validity and whether the corresponding key can be used to sign other certificates)
+2) check their signatures
+
+You can use your favorite web browser to obtain some certificates to play with (just go to some https page and exports the used certificates).
+
+Please refer to the file 'Examples_discussed_during_lecture.html' to get an idea on how you can tackle your task (that is, how the various pieces of information are encoded and which Python library/functions you can use to extract them).
+The Python module x509_certificate is not a standard one, and it is unavailable on purpose: x509_certificate is our own implementation of what you should implement for this assignment. Note, however, that most functions can be easily obtained by generalizing the code that's present in the html page.
+
+
+
