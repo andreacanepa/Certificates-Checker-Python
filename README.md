@@ -1,4 +1,4 @@
-# Certificates_Signature_Checking
+# certificates_checker_python
 
 Code and report provided for an assignment in the "Security" course taken in the MSc in Computer Science and Engineering at Università degli Studi di Genova.
 
